@@ -17,7 +17,7 @@ type Action struct {
 }
 
 func main() {
-	a := Action{
+	a := &Action{
 		Human: Human{
 			name:     "Ivan",
 			surename: "Ivanovich",
